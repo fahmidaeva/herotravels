@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    font-family: "Mulish", serif;
+}
+.navbar{
+    padding: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    color: #FF5400;
+}
+.hero{
+    color: #131318;
+    font-weight: 800;
+    font-size: 45; 
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 50px
+}
+li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #474747;
+}
+.images{
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png); 
+    background-repeat: no-repeat; 
+    height: 500px;
+    width: 1170px;
+    border-radius: 10px;
+    margin: 50px auto 100px;
+}
+.title{
+   text-align: center;
+   color: #FFFFFF;
+   
+}
+.explore{
+    padding: 50px 0px 10px;
+    font-size: 45px;
+}
+.line{
+    text-align: center;
+    padding: 30px 300px 150px 200px;
+    margin-bottom: 100px;
+    background-color: rgba();
+    border-radius: 5px;
+}
+.button1{
+    border-radius: 5px;
+    color: #131318;
+    margin: 15px 15px 15px 20px;
+    padding: 15px 50px 15px 15px;
+}
+.button2{
+    border-radius: 5px;
+    color: #ffffff;
+    margin: 15px 15px 15px 20px;
+    padding: 15px 50px 15px 15px;
+    border: none;
+    background-color: #ff5400;
+}
+.tours{
+    display: flex;
+    margin: 10px 69px 10px 69px;
+}
+.poular{
+    color: #131318;
+    font-weight: 800px;
+}
+
+.destination{
+  text-align: center; 
+  font-weight: 800;
+  color: #131318; 
+  font-size: 40px;
+}
+.dolar{
+    text-align: center;
+    color: #131318;
+    font-size: 16px;
+}
